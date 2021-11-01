@@ -9,9 +9,9 @@ $(this).css('background-image','url("'+$(this).find('img').attr('src')+'")');
 
 ibg();
 
-$('.header__icon').click(function(event) {
+$('.porten__burger').click(function(event) {
 	$(this).toggleClass('active');
-	$('.header__menu-menu').toggleClass('active');
+	$('.porten__menu').toggleClass('active');
 	if($(this).hasClass('active')){
 		$('body').data('scroll',$(window).scrollTop());
 	}
