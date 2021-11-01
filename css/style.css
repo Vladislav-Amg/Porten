@@ -57,6 +57,7 @@ input,
 button,
 textarea {
   font-family: "PT Sans";
+  border-radius: 0px;
 }
 
 input::-ms-clear {
