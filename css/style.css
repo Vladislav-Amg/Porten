@@ -1358,11 +1358,11 @@ body.lock {
   background: rgba(255, 255, 255, 0.4);
 }
 .about__button {
-  padding: 0.5px 0px 0px 0px;
   display: inline-block;
   width: 40%;
   height: 42px;
   background-color: #0F0F0F;
+  font-size: 14px;
   line-height: 42px;
   color: #fff;
   -webkit-transition: all 0.5s ease 0s;
